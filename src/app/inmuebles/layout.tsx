@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Layput(props: { children: React.ReactElement, ficha: React.ReactElement, playground: React.ReactElement }) {
+export default function Layput(props: { children: React.ReactElement, ficha: React.ReactElement | string, playground: React.ReactElement }) {
     return (
         <div>
             <div>{ props.children }</div>
